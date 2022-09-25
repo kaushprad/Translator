@@ -1,0 +1,2 @@
+# Translator
+Developed a Neural Machine Translation Model in Python that uses the Sequence-to-Sequence architecture in Tensor Flow’s Keras library to translate a sentence given in English to French. The dataset used is the DCEP (Digital Corpus of the European Parliament) English to French parallel corpus. The model consisted of an LSTM layer, both in the encoder &amp; decoder. For the word embeddings, I used the BERT framework to generate the word vectors to be fed to the model while training. Bleu score for the model with the given dataset was also calculated.
